@@ -1,7 +1,5 @@
 hours = 2
 
-hour_in_seconds = 3600
-
-seconds = hours * hour_in_seconds
+seconds = hours * 3600
 
 print(str(hours) +" hour(s) is "+str(seconds)+" seconds.")
