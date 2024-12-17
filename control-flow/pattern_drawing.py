@@ -1,8 +1,9 @@
 size = int (input("Enter the size of the pattern: "))
-
-for j in range(0,size):
-    for i in range (0,size):
-        if i < size-1:
+outer = 0 
+while outer < size:
+    for i in range (size):
+        if i < size-1 :
             print("*", end="")
         else:
             print("*", end="\n")
+    outer += 1
